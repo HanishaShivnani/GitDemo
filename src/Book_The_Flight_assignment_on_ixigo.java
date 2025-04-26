@@ -12,6 +12,8 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Book_The_Flight_assignment_on_ixigo {
 
 	
@@ -21,8 +23,8 @@ public class Book_The_Flight_assignment_on_ixigo {
 		
 	
 		
-		 System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
-		 WebDriver driver = new ChromeDriver(); driver.manage().window().maximize();
+		WebDriverManager.chromedriver().setup();  // It will handle driver automatically
+        ChromeDriver driver = new ChromeDriver(); driver.manage().window().maximize();
 		 
 	        
 	        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);

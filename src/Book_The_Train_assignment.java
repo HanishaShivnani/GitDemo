@@ -12,6 +12,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class Book_The_Train_assignment {
@@ -19,9 +22,8 @@ public class Book_The_Train_assignment {
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
-		  System.setProperty("webdriver.chrome.driver", "E:\\chromedriver.exe");
-		  WebDriver driver = new ChromeDriver(); 
+		WebDriverManager.chromedriver().setup();  // It will handle driver automatically
+        ChromeDriver driver = new ChromeDriver(); 
 		 
 
 		driver.manage().timeouts().implicitlyWait(11, TimeUnit.SECONDS);

@@ -12,4 +12,10 @@ public class one {
 	public void second() {
 		System.out.println("Good Morning");
 	}
+	
+	@Test 
+	public void third() {
+		System.out.println("GoodBie");
+	}
+	
 }

@@ -46,6 +46,11 @@
     <scope>test</scope>
 </dependency>
 
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>5.8.0</version> <!-- Latest version add karo -->
+</dependency>
 	
   </dependencies>
   <build>
