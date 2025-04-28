@@ -18,4 +18,9 @@ public class two {
 		System.out.println("You should try once");
 	}
 	
+	@Test
+	public void fourth() {
+		System.out.println("Let's meet at 10 am ");
+	}
+	
 }
