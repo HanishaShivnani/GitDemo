@@ -13,14 +13,14 @@ public class one {
 		System.out.println("Good Morning");
 	}
 	
-	@Test 
+	@Test
 	public void third() {
-		System.out.println("GoodBie");
+		System.out.println("See You Soon!!");
 	}
 	
 	@Test
 	public void forth() {
-		System.out.println("See You Soon!!");
+		System.out.println("Good Bie");
 	}
 	
 }
