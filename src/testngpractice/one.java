@@ -13,9 +13,5 @@ public class one {
 		System.out.println("Good Morning");
 	}
 	
-	@Test 
-	public void third() {
-		System.out.println("GoodBie");
-	}
 	
 }
