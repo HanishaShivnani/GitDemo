@@ -18,4 +18,9 @@ public class one {
 		System.out.println("GoodBie");
 	}
 	
+	@Test
+	public void forth() {
+		System.out.println("See You Soon!!");
+	}
+	
 }
