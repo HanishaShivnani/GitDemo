@@ -14,4 +14,9 @@ public class one {
 	}
 	
 	
+	@Test
+	public void forth() {
+		System.out.println("See You Soon!!");
+	}
+	
 }
